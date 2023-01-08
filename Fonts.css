@@ -1,0 +1,62 @@
+/* Shabnam */
+
+@font-face {
+  font-family: Shabnam;
+  src: url("./fonts/Shabnam/Shabnam.eot");
+  src: url("Shabnam.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Shabnam/Shabnam.woff2") format("woff2"),
+    url("./fonts/Shabnam/Shabnam.woff") format("woff"),
+    url("./fonts/Shabnam/Shabnam.eot") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url("./fonts/Shabnam/Shabnam-Bold.eot");
+  src: url("Shabnam-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Shabnam/Shabnam-Bold.woff2") format("woff2"),
+    url("./fonts/Shabnam/Shabnam-Bold.woff") format("woff"),
+    url("./fonts/Shabnam/Shabnam-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url("./fonts/Shabnam/Shabnam-Thin.eot");
+  src: url("Shabnam-Thin.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Shabnam/Shabnam-Thin.woff2") format("woff2"),
+    url("./fonts/Shabnam/Shabnam-Thin.woff") format("woff"),
+    url("./fonts/Shabnam/Shabnam-Thin.ttf") format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url("./fonts/Shabnam/Shabnam-Light.eot");
+  src: url("Shabnam-Light.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Shabnam/Shabnam-Light.woff2") format("woff2"),
+    url("./fonts/Shabnam/Shabnam-Light.woff") format("woff"),
+    url("./fonts/Shabnam/Shabnam-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url("./fonts/Shabnam/Shabnam-Medium.eot");
+  src: url("Shabnam-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Shabnam/Shabnam-Medium.woff2") format("woff2"),
+    url("./fonts/Shabnam/Shabnam-Medium.woff") format("woff"),
+    url("./fonts/Shabnam/Shabnam-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+/* Shabnam */
+
+/* Rajab */
+
+@font-face {
+  font-family: Rajab;
+  src: url(./fonts/621b9296acdd7c9e95dbd4cb66be7224c7a557102901931.ttf);
+}
+
+/* Rajab */

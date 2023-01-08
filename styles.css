@@ -1,0 +1,296 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+.mt-6 {
+  margin-top: 70px;
+}
+
+.mt-7 {
+  margin-top: 100px;
+}
+
+.m-x {
+  margin-right: 31px;
+}
+
+/* Navbar */
+
+.img-book {
+  width: 106px;
+  height: 106px;
+}
+
+.be-dan {
+  font-family: Rajab;
+  font-size: 50px;
+}
+
+.b-b-nav {
+  transition: 0.4s;
+}
+
+.b-b-nav:hover {
+  border-bottom: solid #e9ac29 4px;
+  border-radius: 2px;
+}
+
+.active {
+  border-bottom: solid #e9ac29 4px;
+  border-radius: 2px;
+}
+
+.anv-i {
+  text-decoration: none;
+}
+
+/* End of Navbar -------------------------------------------------------------*/
+
+/* Slides */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1200px;
+  /* position: relative; */
+  /* margin: auto; */
+}
+
+.slideshow-container-2 {
+  max-width: 1200px;
+  /* position: relative; */
+  /* margin: auto; */
+}
+
+.slideshow-container-3 {
+  max-width: 1200px;
+  /* position: relative; */
+  /* margin: auto; */
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover,
+.prev2:hover,
+.next2:hover {
+  /* background-color: rgba(0,0,0,0.8); */
+  cursor: pointer;
+}
+
+/* The dots/bullets/indicators */
+.dot,
+.dot2,
+.dot3
+{
+  cursor: pointer;
+  height: 6px;
+  width: 72px;
+  margin: 0 1px;
+  background-color: #6071a0;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activee,
+.activeee,
+.activeeee,
+.dot2:hover,
+.dot:hover {
+  background-color: #e09b26;
+}
+
+/* Fading animation */
+/* .fade {
+  animation-name: fade;
+  animation-duration: .5s;
+}
+
+@keyframes fade {
+  from {opacity: 0} 
+  to {opacity: 1}
+} */
+
+.rating {
+  background-color: #f8eab8;
+  width: 90px;
+  height: 35px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* position: absolute; */
+  /* top: 10%;
+  right: -5%; */
+  /* ----------------------------------------------- */
+  position: absolute;
+  top: 15%;
+  left: 75%;
+  /* transform: translate( -50%, -50% ); */
+  /* text-align: center; */
+}
+
+.ratingg {
+  /* position: absolute; */
+  margin-top: -5px;
+  margin-right: 5px;
+}
+
+/* End Of Slides ---------------------------------------------------------------*/
+
+/* Banner */
+
+.img-banner {
+  /* margin-top: 12%; */
+  width: 100%;
+}
+
+.tx-in-banner {
+  font-weight: 500;
+  font-family: Shabnam;
+  font-size: 5vw;
+}
+
+.text-banner-1 {
+  top: 10%;
+  right: 26%;
+}
+
+/* End of Banner --------------------------------------------------------------*/
+
+/* Banner-2 */
+
+.text-banner-2 {
+  top: 40%;
+  right: 35%;
+}
+
+.text-in-banner-2 {
+  font-size: 3.5vw;
+  font-weight: 700;
+  text-align: right;
+}
+
+.btn-in-banner {
+  height: 10%;
+  width: 20%;
+  border-radius: 10px;
+  top: 80%;
+  right: 35%;
+  white-space: normal;
+}
+
+@media screen and (max-width: 610px) {
+  .btn-in-banner {
+    width: 120px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .p-in-banner {
+    margin-top: -4%;
+  }
+}
+
+/* End Of Banner-2 -------------------------------------------------------------*/
+
+/* Banner-3 */
+
+.img-banner-2 {
+  width: 100%;
+  height: 50%;
+}
+
+.imginbanner {
+  top: 0%;
+  left: 0%;
+  width: 50%;
+  height: 100%;
+  border-radius: 4% 0px 0px 0px;
+}
+
+.textInbanner3 {
+  text-align: right;
+  font-size: 2vw;
+  font-weight: 700;
+  color: white;
+}
+
+.text-in-banner-3 {
+  top: 15%;
+  right: 5%;
+}
+
+.ulInbanner3 {
+  text-align: right;
+  direction: rtl;
+  top: 95%;
+  right: -5%;
+  font-size: 1.2vw;
+}
+
+@media screen and (max-width: 610px) {
+  .text-in-banner-3 {
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .ulInbanner3 {
+    font-size: 1px;
+  }
+}
+
+.btn-in-banner-3 {
+  top: 80%;
+  right: 5%;
+  width: 32%;
+  height: 8%;
+}
+
+@media screen and (max-width: 767.9px) {
+  .btn-in-banner-3 {
+    width: 40%;
+    height: 25%;
+    top: 45%;
+    right: 5%;
+  }
+}
+
+
+
+/* End Of Banner-3 -------------------------------------------------------------*/
+
+/* Footer */
+
+.image-footer{
+  width: 85%;
+  height: 75%;
+  border-radius: 20%;
+  top: 50%;
+  left: 10%;
+  box-shadow: 0px 0px 35px 6px rgba(0, 0, 0, 0.25);
+  /* margin-right: 30px; */
+}
+
+@media screen and (max-width: 767.9px) {
+  .image-footer {
+    width: 40%;
+    height: 60%;
+    
+  }
+}
+
+/* End Of Footer--------------------------------------------------------------- */
+
+/* Profile */
+
+.profile-pic{
+  width: 13%;
+  height: 68%;
+  border-radius: 50% ;
+  top: 63%;
+  right: 43.51%;
+  box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 1);
+}
+
+/* End Of Profile */
